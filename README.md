@@ -1,15 +1,15 @@
-# Séries Temporais & Forecast usando SARIMAX, XGBoost e Facebook Prophet
+# Time Series & Forecast using SARIMAX, XGBoost and Facebook Prophet
 
-## Objetivo  
-Fazer predição de valores de ações do Facebook em um intervalo de 30 dias (entre 13/01/2022 e 25/02/2022), com dados de cinco anos (entre 29/02/2016 e 25/02/2022).
+## Purpose  
+Make value predictions from Facebook stock prices in 30-day interval (between 01/13/2022 and 02/25/2022), wwith data from five years interval (between 02/29/2016 and 02/25/2022).
 
-## Recursos utilizados
+## Resources
 - Visual Studio Code
 - python3.9
 - virtualenv
-- pip3: gerenciador de pacotes python3.x
+- pip3: python3.x packages manager
 
-## Pacotes do Python
+## Python packages
 - pandas
 - plotly
 - numpy
@@ -18,13 +18,13 @@ Fazer predição de valores de ações do Facebook em um intervalo de 30 dias (e
 - xgboost
 - Facebook Prophet
 
-## Conteúdos deste repositório
-Este repositório contém três Jupyter Notebooks:
-- SARIMAX.ipynb: notebook onde é usado o modelo estatístico SARIMAX para fazer forecast (previsão)
-- XGBoost.ipynb: notebook onde é usado o modelo de regressão do XGBoost para fazer forecast (previsão)
-- Prophet.ipynb: notebook onde é usado o Facebook Prophet para fazer forecast (previsão)
+## Contents
+This repo contains three Jupyter Notebooks:
+- SARIMAX.ipynb: notebook which the statistic model SARIMAX is used to forecast
+- XGBoost.ipynb: notebook which the regression model XGBoost is used to forecast
+- Prophet.ipynb: notebook which Facebook Prophet is used to forecast
 
-## Imagens dos modelos construídos
+## Images from builded models
 <img src="SARIMAX.png"/>
 <img src="XGBoost.png"/>
 <img src="Prophet1.png"/>
